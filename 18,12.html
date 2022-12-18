@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shramko</title>
+    <style>
+        #hamburger {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        .mobile-menu {
+            transform: translate(-2000px, 0);
+            transition: all 1s;
+            position: absolute;
+            top: 7%;
+            border: 1px solid black;
+            background-color: white;
+            width: 1830px;
+            height: 862px;
+        }
+
+        .mobile-menu-animation {
+            transform: translate(0, 0);
+        }
+        .ims{
+            width: 100px;
+            height: 100px;
+        }
+        .space{
+            display: flex;
+            justify-content: space-beetwen;
+            gap: 1570px; 
+        }
+        .menu1{
+            width: 80px;
+            height: 100px;
+        }
+        .menu2{
+            width: 120px;
+            height: 100px;
+        }
+        ul{
+            display: flex;
+            text-align: center;
+            justify-content: space-beetwem;
+        } 
+    </style>
+</head>
+<body>
+    <div id="hamburger">
+        <img src= ./images/Vector.png>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="space">
+            <ul>
+                <li><img class="menu1" src="./images/co.jpeg"></li>
+                <li><img class="menu2" src="./images/fr.jpg"></li>
+            </ul>
+            <img class="ims" id="imas" src="./images/Vector(1).jpg">
+        </div>
+    </div>
+    <script src="18,12.js"></script>
+</body>
+</html>
